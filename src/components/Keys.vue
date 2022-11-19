@@ -16,7 +16,7 @@ export default {
   methods: {
     play() {
       this.clicked = true;
-      new Audio(this.sound.audio).play();
+      new Audio(this.sound.sound).play();
       setTimeout(() => {
         this.clicked = false;
       }, 200);
